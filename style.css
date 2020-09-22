@@ -1,0 +1,164 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.topbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  min-height: 50px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.topbar #logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.topbar .search-container {
+  position: relative;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.topbar .search-container #searchBar {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-left: 40px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+
+.topbar .search-container #searchBar ::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.topbar .search-container #searchBar :-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.topbar .search-container #searchBar ::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.topbar .search-container #searchBar ::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.topbar .search-container i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.topbar #profileHolder {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#content aside {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 10px;
+}
+
+#content aside a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#content aside a:hover, #content aside a.selected {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#content #newsList {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+#content #newsList #topStoriesContainer .news-item {
+  text-decoration: none;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 5%;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  color: black;
+}
+
+#content #newsList #topStoriesContainer .news-item:hover {
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+#content #newsList #topStoriesContainer .news-item .news-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#content #newsList #topStoriesContainer .news-item .news-byline {
+  font-size: 0.75rem;
+  color: #444;
+}
+
+#content #newsList #topStoriesContainer .news-item .news-time {
+  font-size: 0.75rem;
+  color: #444;
+}
+
+#content #newsList #topStoriesContainer .news-item .news-time::before {
+  content: 'posted at ';
+}
+
+#content #newsList #topStoriesContainer .news-item .news-score {
+  color: rgba(10, 180, 13, 0.4);
+}
+
+#content #newsList #topStoriesContainer .news-item .news-score i {
+  margin-right: 1rem;
+}
+
+#content #weatherBar {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+/*# sourceMappingURL=style.css.map */

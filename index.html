@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Hacker News</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="topbar">
+            <span id="logo">DSC News</span>
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Search">
+                <i class="fa fa-search"></i>
+            </div>
+            <div id="profileHolder"></div>
+        </div>
+        <div id="content">
+            <aside>
+                <a class="menuLink top selected" href="#" onclick="caller('top')(event)">Top Stories</a>
+                <a class="menuLink new" href="#" onclick="caller('new')(event)">New Stories</a>
+                <a class="menuLink best" href="#" onclick="caller('best')(event)">Best Stories</a>
+            </aside>
+            <div id="newsList">
+                <h2 class="listHeading">Headlines</h2>
+                <div id="topStoriesContainer"></div>
+            </div>
+            <div id="weatherBar"></div>
+        </div>
+        <script type="application/javascript" src="script.js"></script>
+    </body>
+</html>
