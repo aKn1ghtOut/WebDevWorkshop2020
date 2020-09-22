@@ -24,18 +24,22 @@
   .search-container {
       position: relative;
       flex: 3;
+      max-width: 700px;
+      display: block;
       
     #searchBar {
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 0, 0, 0.03);
         padding-left: 40px;
         font-size: 18px;
-        border-radius: 15px;
+        border-radius: 8px;
+        margin: 0 auto;
         border: none;
         outline: none;
         ::placeholder {
-        color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.4);
+            font-weight: 500;
         }
     }
     i {
@@ -43,6 +47,7 @@
         top: 50%;
         left: 10px;
         transform: translateY(-50%);
+        color: rgba(0,0,0,0.4);
     }
   }
 

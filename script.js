@@ -43,6 +43,7 @@ async function retrieveItem(id){
     
     let { by, score, time, title, url } = res;
     let now = new Date(time * 1000);
+    
     let Hours = now.getHours();
     let AMPM = Hours >= 12 ? "PM" : "AM";
     Hours = Hours > 12 ? Hours - 12 : Hours;
