@@ -41,15 +41,16 @@ Attributes vs Properties
 | Tags	| Tags	| Tags	|
 |------	|------	|------	|
 |  ul 	|  ol 	|  li 	|
-| forms | input | button |
+| forms | input |heading|
 
 ### Styles
 
 - Custom font family
+- Box Model
 - Borders
 - Margin
 - Padding
-- Box Shadow
+- border-radius
 
 ### Project
 

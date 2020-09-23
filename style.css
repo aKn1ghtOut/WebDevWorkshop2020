@@ -1,0 +1,22 @@
+#header {
+    background-color: white;
+}
+
+#header h2 {
+    display: inline-block;
+    font-family: 'Poppins';
+}
+
+#header #search-bar 
+{
+    /* background-color: lightgray; */
+    display: inline-block;
+}
+
+#header #search-bar input
+{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}

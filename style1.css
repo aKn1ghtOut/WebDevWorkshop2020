@@ -1,0 +1,53 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    height: 60px;
+
+    /* display: inline-block; /* block, inline-block or inline */
+    width: 300px;
+    margin-bottom: 10px;
+}
+a {
+    color: green;
+}
+
+.p1 {
+    /* font-size */
+    font-size: 48px;
+}
+
+.p2 {
+    /* font-weight */
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    /* color: purple; */
+    margin: 0px 30px;
+}
+
+/*
+* content-box, padding-box, border, margin
+*/
+
+.box-model
+{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+
+    background-color: red;
+
+    margin: 50px;
+
+    padding: 50px;
+
+    border: 20px solid blue;
+}
