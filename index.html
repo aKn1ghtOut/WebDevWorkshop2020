@@ -22,14 +22,27 @@
             </div>
             <div id="empty"></div>
         </div>
-        <script type="application/javascript">
-            console.log("Hello World");
-
-            let variable1 = "Hello World";
-            console.log(variable1);
-            let variable2 = 5;
-            console.log(variable2);
-            console.log()
-        </script>
+        <div id="content">
+            <aside>
+                <a class="menuLink top selected" href="#" onclick="clicker('Top Stories')">Top Stories</a>
+                <a class="menuLink new" href="#" onclick="clicker('New Stories')">New Stories</a>
+                <a class="menuLink best" href="#" onclick="clicker('Best Stories')">Best Stories</a>
+            </aside>
+            <div id="newsList">
+                <h2>Headlines</h2>
+                <div id="topStoriesContainer">
+                    <a class="news-item" href="https://google.com" target="blank" data-title="Article Title">
+                        <h3 class="news-title">Article Title</h3>
+                        <p class="news-byline">Author</p>
+                        <p class="news-time">Time Now</p>
+                        <p class="news-score">
+                            <i class="fa fa-thumbs-up"></i>500
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div id="weatherBar"></div>
+        </div>
+        <script src="script.js" type="application/javascript"></script>
     </body>
 </html>
